@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  height: 50px;
+}
+
+.weather-page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../earthImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.weather-card {
+  width: min-content;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  background-color: #c8edf44d;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.material-icons {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
